@@ -1,0 +1,3 @@
+bison -y -d aip.y
+flex aip.l
+gcc y.tab.c lex.yy.c aip.c -o aip
